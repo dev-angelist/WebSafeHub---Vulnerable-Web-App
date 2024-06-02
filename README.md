@@ -1,6 +1,6 @@
 # WebSafeHub - Vulnerable Web App              
 
-# WebSafeHub
+## Purpose and Goals
 
 WebSafeHub is an intentionally vulnerable PHP/MySQL web application designed to simulate real-world security vulnerabilities. Inspired by projects like DVWA (Damn Vulnerable Web Application) and OWASP (Open Web Application Security Project), WebSafeHub provides a platform for security enthusiasts, developers, and students to practice identifying and mitigating common web security vulnerabilities.
 
