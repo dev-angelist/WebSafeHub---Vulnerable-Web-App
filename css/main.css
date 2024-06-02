@@ -1,0 +1,173 @@
+/* Button styles */
+.styled-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Form text styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Dark grey */
+}
+
+/* Success message style */
+.success-message {
+    color: #009900; /* Green */
+    font-weight: bold;
+}
+
+/* Error message style */
+.error-message {
+    color: #FF0000; /* Red */
+    font-weight: bold;
+}
+
+/* Body styles */
+body {
+    background-color: #222; /* Dark grey */
+    color: #fff; /* White */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+#container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sidebar styles */
+#sidebar {
+    flex: 0 0 250px;
+    background-color: #333; /* Dark grey */
+    padding: 20px;
+    border-right: 2px solid #444; /* Dark grey */
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Main menu styles */
+#main_menu {
+    background-color: #444; /* Dark grey */
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+#main_menu ul.menuBlocks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main_menu ul.menuBlocks li {
+    margin: 0;
+    padding: 5px 0;
+}
+
+#main_menu ul.menuBlocks li a {
+    color: #fff; /* White */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#main_menu ul.menuBlocks li a:hover {
+    background-color: #555; /* Dark grey on hover */
+    transform: scale(1.05);
+}
+
+#main_menu ul.menuBlocks li.selected a {
+    background-color: #555; /* Dark grey for selected item */
+    font-weight: bold;
+}
+
+/* Footer styles */
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Dark grey */
+    color: #888; /* Light grey */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+.body_padded p {
+    margin-bottom: 20px;
+}
+
+/* Link styles */
+a {
+    color: #1E90FF; /* Dodger blue */
+}
+
+a:hover {
+    color: #63B8FF; /* Lighter dodger blue on hover */
+}
+
+/* Content section styles */
+.content_section {
+    margin-bottom: 40px;
+}
+
+/* Title division styles */
+#title_div {
+    background-color: #444; /* Dark grey */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#title_div h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Main content styles */
+#main_content {
+    flex: 1;
+    padding: 20px;
+    background-color: #333; /* Dark grey */
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
